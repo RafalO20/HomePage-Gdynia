@@ -263,9 +263,6 @@ img {
     margin-bottom: 200px;
 }
 
-.button-business{
-    display: none;
-}
 .flex-container-business{
     margin-top: 60px;
     display: flex;
@@ -299,14 +296,15 @@ img {
     color: #1D293B;
 }
 
-.button-business {
-    padding: 15px;
-    margin-top: 150px;
+.button-business{
+    display: none;
 }
 
 .button-business-2{
     padding: 15px;
-    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 .span-business {
