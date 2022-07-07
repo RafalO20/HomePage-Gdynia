@@ -116,12 +116,16 @@
 
 .header-text-slider{
     z-index: 99;
-    position: relative;
+    position: absolute;
     width: 500px;
     height: 500px;
     top: 10%;
     left: 10%;
     border-radius: 1%;
+}
+
+.p-slider-modification{
+    margin-top: 50px;
 }
 
 p, span{
@@ -629,16 +633,18 @@ img {
     justify-content: center;
     align-items: flex-start;
     padding: 0px;
-
 }
-
 
 .footer-small{
     position: relative;
     margin-top: 1000px;
     color: #5F6F87;
     background-color: #F5F8FC;
-    height: 1000px;
+    height: 1600px;
+}
+
+.active-small-px{
+    display: none;
 }
 
 .background-footer{
@@ -784,18 +790,64 @@ img {
     
 }
 
+@media screen and (max-width: 1100px){
+    .size-language{
+        display: none;
+    }
+
+    .flex-container-business{
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 100px;
+    }
+    
+    .flex-container-business > div {
+        width: 100%;
+        height: 240px;
+        overflow: hidden;
+    }
+    
+    .flex-container-business > div > img {
+        width: 40%;
+        border-radius: 0%;
+    }
+
+    .h1-business-main {
+        font-size: 35px;
+    }
+    
+    .p-business-main{
+        font-size: 16px;
+        line-height: 30px;
+        margin: 0 40px;
+    }
+
+    .p-business-text{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .card-opinions-one{
+        display: none;
+    }
+
+    .card-opinions-two{
+        left: 22%;
+    }
+}
 
 @media screen and (max-width: 1440px) {
     .elements-on-footer{
-        top: 30%;
+        top: 18%;
     }
 }
 
 @media screen and (max-width: 1280px) {
     .elements-on-footer{
-        width: 80%;
-        height: 80%;
-        top: 30%;
+        top: 20%;
     }
     .info-position{
         position: relative;
@@ -912,6 +964,36 @@ img {
     .appbar{
         display: block;
     }
+    
+     .photo-footer{
+        width: 2000px;
+        overflow: hidden;
+    }
+
+    .active-small-px{
+        display: block;
+    }
+
+    .elements-on-footer-one-active{
+        display: none;
+    }
+    
+    .elements-on-footer{
+        margin-top: 300px;
+    }
+
+    .youngcity{
+            left:15%;
+            cursor: pointer;
+        }
+
+    .footer-big{
+        position: relative;
+    }
+
+    /* .footer-big{
+        margin-top: 2000px;
+    } */
 }
 @media only screen and (max-width: 576px) {
     /*NAVBAR*/
@@ -955,6 +1037,18 @@ img {
     
     .slider-vector{
         background-color: transparent;
+    }
+
+    .div-slider{
+        position: absolute;
+    }
+
+    .photo-slider{
+        width: 100vw;
+    }
+
+    .div-slider-container{
+        position: relative;
     }
     
     .div-slider-color1 {
@@ -1034,15 +1128,12 @@ img {
         margin-left: auto;
         margin-right: auto;
     }
-    
     .div-button-business{
         width: 100%;
         height: 100px;
-        
     }
     
     .span-business {
-        color: #FF5E00;
         font-size: 32px;
         font-weight: 600;
         margin: 0 20px;
@@ -1165,10 +1256,27 @@ img {
         
     }
 
-    .section-footer{
-        width: 100%;
-        height: 100%;
+    .elements-on-footer{
+        margin-top: 500px;
     }
 
+    .youngcity{
+            left:15%;
+            cursor: pointer;
+        }
+
+    .footer-big{
+        position: relative;
+    }
+
+
+    .active-small-px{
+        display: block;
+    }
+
+    .elements-on-footer-one-active{
+        display: none;
+    }
+    
 }
 
