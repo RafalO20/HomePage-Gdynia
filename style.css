@@ -297,14 +297,18 @@ img {
 }
 
 .button-business{
-    display: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    padding: 20px;
 }
 
 .button-business-2{
     padding: 15px;
     margin-left: auto;
     margin-right: auto;
-    display: block;
+    display: none;
 }
 
 .span-business {
@@ -835,6 +839,18 @@ img {
     .card-opinions-two{
         left: 22%;
     }
+
+    .button-business-2{
+        display: block;
+        padding: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .button-business{
+        display: none;
+    }
+    
 }
 
 @media screen and (max-width: 1440px) {
@@ -1125,6 +1141,10 @@ img {
         padding: 20px;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .button-business{
+        display: none;
     }
     .div-button-business{
         width: 100%;
