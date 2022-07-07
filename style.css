@@ -335,7 +335,6 @@ img {
 
 .why-gdynia {
     position: relative;
-    margin-top: 200px;
     width: 60vw;
     border-radius: 20%;
     height: 1000px;
@@ -350,16 +349,23 @@ img {
     display: flex;
 }
 
-.why-gdynia-button {
+.why-gdynia-div{
+    margin: 100px 100px;
     position: absolute;
-    top: 40%;
-    right: 40%;
+    left: 30%;
+    width: 500px;
+}
+
+.why-gdynia-button {
     color: white;
     background-color: #FF5E00;
     font-weight: 600;
     border: 1px solid #FF5E00;
     border-radius: 5px;
     padding: 20px;
+    margin-top: 50px;
+    margin-left: -270px;
+
 }
 
 .why-gdynia-button:hover{
@@ -374,32 +380,23 @@ img {
     left: 20%;
 }
 
-.why-gdynia-h11{
-    position: absolute;
-    right: 35%;
-    top: 15%;
+.why-gdynia-h1{
     font-size: 40px;
     color: white;
     background-color: transparent;
-}
-
-.why-gdynia-h12{
-    position: absolute;
-    right: 15%;
-    top: 20%;
-    font-size: 40px;
-    color: white;
-    background-color: transparent;
+    text-align: left;
+    margin-bottom: 20px;
+    line-height: 50px;
 }
 
 
 .why-gdynia-p{
-    font-weight: 400;
+    font-weight: 300;
     font-size: 16px;
     color: white;
-    margin-top: 20px;
     background-color: transparent;
     text-align: left;
+    line-height: 30px;
 }
 
 .why-gdynia-p-main{
@@ -432,7 +429,7 @@ img {
     position: absolute;
     left: 65%;
     top: 20%;
-    margin-top: 300px;
+    margin-top: 200px;
     display: flex;
     flex-wrap: wrap;
 } 
@@ -771,27 +768,21 @@ img {
 
 @media only screen and (max-width: 1700px) {
     .why-gdynia{
-        left: -15%;
-    }
-    .why-gdynia-h11{
-        right: 30%;
-    }
-    
-    .why-gdynia-h12{
-        right: 5%;
+        left: -20%;
     }
     
     
     .why-gdynia-p{
         width: 100%;
-        margin-left: 350px;
     }
-    
+        
     .why-gdynia-p-main{
         background-color: transparent;
         position: absolute;
-        right: 29%;
-        top: 25%;
+    }
+
+    .why-gdynia-button{
+        margin-left: -170px;
     }
     
 }
@@ -811,9 +802,8 @@ img {
     }
 
     .navbar-button{
-        padding: 20px 100px;
         background-color: transparent;
-        margin-top: 20%;
+        margin-top: 5%;
     }
     .navbar li{
         padding-top: 40px;
@@ -881,6 +871,12 @@ img {
         display: none;
     }
 
+    .why-gdynia-photo{
+        left: 10%;
+    }
+    .why-gdynia{
+        left: 15%;
+    }
 }
 
 @media screen and (max-width: 1440px) {
@@ -888,6 +884,17 @@ img {
         top: 18%;
     }
 
+    .why-gdynia{
+        left: -22%;
+    }
+
+    .why-gdynia-div{
+        width: 400px;
+    }
+    .why-gdynia-h1{
+        font-size: 30px;
+    }
+    
     
 .section-footer{
     height: 1850px;
@@ -899,6 +906,30 @@ img {
         top: 20%;
     }
 
+    .elements-on-footer{
+        top: 18%;
+    }
+
+    .why-gdynia{
+        left: -25%;
+        width: 800px;
+    }
+
+    .why-gdynia-div{
+        width: 400px;
+    }
+    .why-gdynia-h1{
+        font-size: 30px;
+        margin-left: -80px;
+    }
+
+    .why-gdynia-p{
+        margin-left: -80px;
+    }
+
+    .why-gdynia-button{
+        margin-left: -320px;
+    }
     
 .section-footer{
     overflow: hidden;
@@ -959,13 +990,14 @@ img {
     .why-gdynia-p{
         width: 100%;
     }
-    
+
     .why-gdynia-p-main{
         background-color: transparent;
         position: absolute;
         right: 29%;
         top: 25%;
     }
+
     .why-gdynia-button{
         right: 20%;
     }
@@ -1000,7 +1032,7 @@ img {
     .navbar-button{
         padding: 20px 100px;
         background-color: transparent;
-        margin-top: 20%;
+        margin-top: 10%;
     }
     .navbar li{
         padding-top: 40px;
