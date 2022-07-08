@@ -314,6 +314,7 @@ img {
     color: #FF5E00;
     font-size: 32px;
     font-weight: 600;
+    margin: 10px 30px;
 }
 
 .p-container > p{
@@ -322,6 +323,10 @@ img {
 
 .p-business-text{
     position: absolute;
+    font-weight: 700;
+}
+.business-text-container{
+    text-align: left;
 }
 
 .image-business{
@@ -500,6 +505,9 @@ img {
     width: 100vw;
 }
 
+.section-client{
+    height: 1200px;
+}
 .vector-about-us-image{
     background-color: transparent;
 }
@@ -635,10 +643,8 @@ img {
 
 .footer-small{
     position: relative;
-    margin-top: 1000px;
     color: #5F6F87;
     background-color: #F5F8FC;
-    height: 1600px;
 }
 
 .active-small-px{
@@ -660,7 +666,7 @@ img {
 }
 
 .photo-footer{
-    position: absolute;
+    position: relative;
     left: 0;
     width: 100%;
 }
@@ -712,27 +718,6 @@ img {
     cursor: pointer;
 }
 
-.youngcity-h1{
-    font-weight: 300;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    letter-spacing: 4px;
-    line-height: 30px;
-}
-
-.youngcity-span{
-    font-weight: 600;
-}
-
-.youngcity-orange{
-    color: #FF5E00;
-}
-
-.youngcity-p{
-    color: #FFFFFF;
-    font-weight: 200;
-    letter-spacing: 4px;
-}
 
 .partners{
     top: 5%;
@@ -749,9 +734,86 @@ img {
 .section-footer{
     overflow: hidden;
     width: 100%;
-    height: 1900px;
 }
 
+
+.section-footer-container{
+    position: relative;
+    background-image: url('../images/2015_09_20_Gdynia_basen_prezydencki_wieczor_09 1.png');
+    height: 720px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 16px;
+    color: white;
+}
+
+.info-partners{
+    text-transform: uppercase;
+}
+
+.image-logo-blue{
+    position: absolute;
+    left: 5%;
+    top: 10%;
+}
+
+.adres-footer-container{
+    position: absolute;
+    left: 5%;
+    top: 30%;
+    text-align: left;
+}
+
+.adres-footer-container img{
+    margin-top: 50px;
+}
+
+.cookies-policy{
+    margin-top: 250px;
+}
+
+.cookies-span{
+    padding-left: 20px;
+}
+
+.adres-footer p{
+    line-height: 30px;
+}
+
+.youngcity-container{
+    position: absolute;
+    right: 10%;
+    top: 30%;
+    text-transform: uppercase;
+    line-height: 30px;
+    text-align: left;
+}
+
+.youngcity-h1{
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    letter-spacing: 4px;
+    font-size: 30px;
+}
+
+.youngcity-span{
+    font-weight: 600;
+}
+
+.youngcity-orange{
+    color: #FF5E00;
+}
+
+.youngcity-p{
+    font-weight: 200;
+    letter-spacing: 4px;
+}
+
+.info-partners{
+    margin-top: 200px;
+}
 
 @media only screen and (max-width: 1700px) {
     .why-gdynia{
@@ -909,7 +971,6 @@ img {
     
     
 .section-footer{
-    height: 1850px;
 }
 }
 
@@ -946,7 +1007,6 @@ img {
 .section-footer{
     overflow: hidden;
     width: 100%;
-    height: 1900px;
 }
 
     .info-position{
@@ -1021,7 +1081,7 @@ img {
 
     .p-business-text{
         font-size: 14px;
-        margin: 10px 20px;
+        margin-top: 10px;
     }
 }
 
@@ -1094,6 +1154,27 @@ img {
 
     .why-gdynia-checkbox{
         width: 100%;
+    }
+
+    .youngcity-container{
+        left: 5%;
+        top: 30%;
+    }
+    
+    .youngcity-orange{
+        color: #FF5E00;
+    }
+    
+    .info-partners{
+        margin-top: 200px;
+    }
+
+    .cookies-policy{
+        margin-top: 200px;
+    }
+
+    .adres-footer-container{
+        margin-top: 120px
     }
 }
 @media only screen and (max-width: 576px) {
@@ -1252,7 +1333,7 @@ img {
         margin-top: 20px;
         width: 80%;
         font-weight: 700;
-        margin-left: -20px;
+        text-align: left;
     }
 
     .text-information-business{
@@ -1368,38 +1449,6 @@ img {
 
     .info-about-user-two{
         width: 188px;
-    }
-
-    .user{
-        margin: 40px 20px;
-    }
-
-    .ours-partners-images-container{
-        /* display: grid;
-        grid-template-columns: auto; */
-        
-    }
-
-    .elements-on-footer{
-        margin-top: 500px;
-    }
-
-    .youngcity{
-            left:15%;
-            cursor: pointer;
-        }
-
-    .footer-big{
-        position: relative;
-    }
-
-
-    .active-small-px{
-        display: block;
-    }
-
-    .elements-on-footer-one-active{
-        display: none;
     }
     
 }
